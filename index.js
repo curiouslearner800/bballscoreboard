@@ -52,9 +52,9 @@ function increaseHomeScoreThree(){
 // repeat for +2  - done
 // repeat for +3  - done
 // do the same for GUEST - done
-// add background for home and guest count
+// add background for home and guest count - done
 // fix font for home and guest - either use image or editable (make editable is preferred) - done
-// fix count font
-// fix spacing 
+// fix count font - done
+// fix spacing - done
 // get code review
 // write blog post! include videos of figma
