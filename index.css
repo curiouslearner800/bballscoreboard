@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #1e2a78; /* Replace with your preferred blue */
+    background: #1B244A; 
     box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@ body {
     text-align: center;
     height: 100%;
     padding: 0;
+    background: #1B244A; 
 }
 
 .container {
@@ -45,4 +46,3 @@ h2 {
   background-color: #1B244A;
                                                 
 }
-//font for count - Cursed Timer ULiL
