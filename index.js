@@ -43,18 +43,3 @@ function increaseHomeScoreThree(){
 }
 
 
-// fix text for titles for home and guest - done
-// add UI for buttons onto the page - done
-// fix formatting to be in-line - done
-
-
-// make functions work by doing increment by +1 to show total count increasing - done
-// repeat for +2  - done
-// repeat for +3  - done
-// do the same for GUEST - done
-// add background for home and guest count - done
-// fix font for home and guest - either use image or editable (make editable is preferred) - done
-// fix count font - done
-// fix spacing - done
-// get code review - done
-// write blog post! include videos of figma
