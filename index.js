@@ -56,5 +56,5 @@ function increaseHomeScoreThree(){
 // fix font for home and guest - either use image or editable (make editable is preferred) - done
 // fix count font - done
 // fix spacing - done
-// get code review
+// get code review - done
 // write blog post! include videos of figma
