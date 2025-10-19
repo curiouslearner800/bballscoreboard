@@ -42,11 +42,23 @@ function increaseHomeScoreThree(){
     homeScoreEl.textContent = homeScore
 }
 
+let period = 1;
+let periodDisplay = document.getElementById("period-display");
+
+function nextPeriod() {
+    if (period < 4) {
+        period++;
+        periodDisplay.textContent = `Period: ${period}`;
+    }
+}
+
 function resetScores() {
     homeScore = 0;
     guestScore = 0;
     homeScoreEl.textContent = homeScore;
     guestScoreEl.textContent = guestScore;
+    period = 1;
+    periodDisplay.textContent = `Period: ${period}`;
 }
 
 
