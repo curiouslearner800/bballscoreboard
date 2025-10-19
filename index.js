@@ -24,7 +24,7 @@ function increaseGuestScoreThree (){
 let homeScoreEl = document.getElementById("home-score")
 let homeScore = 0
 let homeScoreBtn = document.getElementById("home-score-btn-1")
-let homeScoreBtn2 = document.getElementbyId("home-score-btn-2")
+let homeScoreBtn2 = document.getElementById("home-score-btn-2")
 let homeScoreBtn3 = document.getElementById("home-score-btn-3")
 
 function increaseHomeScoreOne(){
@@ -47,8 +47,10 @@ let periodDisplay = document.getElementById("period-display");
 
 function nextPeriod() {
     if (period < 4) {
-        period++;
-        periodDisplay.textContent = `Period: ${period}`;
+        period += 1;
+        if (periodDisplay) {
+            periodDisplay.textContent = `Period: ${period}`;
+        }
     }
 }
 
@@ -58,7 +60,9 @@ function resetScores() {
     homeScoreEl.textContent = homeScore;
     guestScoreEl.textContent = guestScore;
     period = 1;
-    periodDisplay.textContent = `Period: ${period}`;
+    if (periodDisplay) {
+        periodDisplay.textContent = `Period: ${period}`;
+    }
 }
 
 
