@@ -42,4 +42,11 @@ function increaseHomeScoreThree(){
     homeScoreEl.textContent = homeScore
 }
 
+function resetScores() {
+    homeScore = 0;
+    guestScore = 0;
+    homeScoreEl.textContent = homeScore;
+    guestScoreEl.textContent = guestScore;
+}
+
 
