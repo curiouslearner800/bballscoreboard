@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #1B244A; 
+    background: green; 
     box-sizing: border-box;
 }
 
@@ -11,14 +11,14 @@ body {
     text-align: center;
     height: 100%;
     padding: 0;
-    background: #1B244A; 
+    background: green; 
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     font-size: 40x;
-    background-color: #1B244A;
+    background-color: green;
     font-size: 30px;
     color: white;
 }    
@@ -43,6 +43,6 @@ h2 {
   text-align: center;
   font-size: 18px;
   border-radius: 5px;
-  background-color: #1B244A;
+  background-color: green;
                                                 
 }
